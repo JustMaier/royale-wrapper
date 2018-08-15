@@ -2,6 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Justin Maier</Authors>
+    <Company />
+    <Description>A C# wrapper for the official Clash Royale API</Description>
+    <PackageProjectUrl>https://github.com/justmaier/royale-wrapper</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/justmaier/royale-wrapper/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/justmaier/royale-wrapper</RepositoryUrl>
+    <PackageTags>clash-royale, wrapper, netstandard</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/justmaier/royale-wrapper/master/icon.png</PackageIconUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="newtonsoft.json" Version="11.0.2" />
+  </ItemGroup>
 
 </Project>

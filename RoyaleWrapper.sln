@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoyaleWrapper", "RoyaleWrapper\RoyaleWrapper.csproj", "{3A9096BE-86EE-428B-A371-DF52F536CA3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoyaleWrapper", "RoyaleWrapper\RoyaleWrapper.csproj", "{3A9096BE-86EE-428B-A371-DF52F536CA3D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoyaleWrapper.Test", "RoyaleWrapper.Test\RoyaleWrapper.Test.csproj", "{EB58EC6A-20FA-4EE5-A0C3-B9CAA16E6A6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{AB239BB8-D28F-46EC-8153-5C3F16F8321B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,10 @@ Global
 		{3A9096BE-86EE-428B-A371-DF52F536CA3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A9096BE-86EE-428B-A371-DF52F536CA3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A9096BE-86EE-428B-A371-DF52F536CA3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB58EC6A-20FA-4EE5-A0C3-B9CAA16E6A6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB58EC6A-20FA-4EE5-A0C3-B9CAA16E6A6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB58EC6A-20FA-4EE5-A0C3-B9CAA16E6A6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB58EC6A-20FA-4EE5-A0C3-B9CAA16E6A6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
