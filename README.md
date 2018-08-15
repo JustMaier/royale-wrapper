@@ -1,7 +1,9 @@
 [![Nuget version][nuget-image]][nuget-url]
 
 # Royale Wrapper
+
 <img align="right" width="100" height"100" src="./icon.png">
+
 A handy C# wrapper for the [Official Clash Royale API](https://developer.clashroyale.com) using .NET Standard 2.0
 
 ## Installation
@@ -53,7 +55,7 @@ Want to help out? Great! Here are a few notes:
 
 - Be sure to setup tests for any additional methods you add to the `Client`
 - Be sure that tests pass :)
-- Setup your API Key in the unit tests by adding a `appsettings.json` like so: `{"config":{"key":"YOUR_API_KEY"}}`
+- Setup your API Key in the unit tests by adding a `appsettings.json` with `{"config":{"key":"YOUR_API_KEY"}}` to `/RoyaleWrapper.Test`
 
 
 [nuget-image]: https://img.shields.io/nuget/v/RoyaleWrapper.svg?style=flat-square
