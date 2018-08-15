@@ -1,8 +1,9 @@
-[![Nuget version][nuget-image]][nuget-url]
 
 # Royale Wrapper
 
-<img align="right" width="100" height"100" src="./icon.png">
+<img align="right" height="80" width="80" src="icon.png">
+
+[![Nuget version][nuget-image]][nuget-url]
 
 A handy C# wrapper for the [Official Clash Royale API](https://developer.clashroyale.com) using .NET Standard 2.0
 
