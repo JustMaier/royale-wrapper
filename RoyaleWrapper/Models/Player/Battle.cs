@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using Newtonsoft.Json;
 
 namespace RoyaleWrapper.Models {
     public class Battle {
         public string Type { get; set; }
-        public string BattleTime { get; set; }
+        public DateTime BattleTime { get; set; }
         public Arena Arena { get; set; }
         public GameMode GameMode { get; set; }
         public string DeckSelection { get; set; }

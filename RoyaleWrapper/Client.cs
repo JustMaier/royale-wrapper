@@ -54,7 +54,8 @@ namespace RoyaleWrapper {
         private string CleanTag(string tag) => $"%23{tag.Replace("#", "").Replace("%23", "")}";
         private static JsonSerializerSettings clientSerializer = new JsonSerializerSettings {
             NullValueHandling = NullValueHandling.Ignore,
-            ContractResolver = new CamelCasePropertyNamesContractResolver()
+            ContractResolver = new CamelCasePropertyNamesContractResolver(),
+            DateFormatString = "yyyyMMddTHHmmss.fffK"
         };
         private string AddQuery(string url, QueryBase query) {
             if (query == null) return url;
@@ -74,7 +75,7 @@ namespace RoyaleWrapper {
         }
         protected async Task<T> GetAsync<T>(string url) {
             var res = await client.GetStringAsync(url);
-            return JsonConvert.DeserializeObject<T>(res);
+            return JsonConvert.DeserializeObject<T>(res, clientSerializer);
         }
         #endregion Helpers
     }

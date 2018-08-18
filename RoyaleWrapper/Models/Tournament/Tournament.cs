@@ -14,6 +14,6 @@ namespace RoyaleWrapper.Models {
         public int MaxCapacity { get; set; }
         public int PreparationDuration { get; set; }
         public int Duration { get; set; }
-        public string CreatedTime { get; set; }
+        public DateTime CreatedTime { get; set; }
     }
 }

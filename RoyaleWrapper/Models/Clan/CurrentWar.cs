@@ -5,7 +5,7 @@ using System.Text;
 namespace RoyaleWrapper.Models {
     public class CurrentWar {
         public string State { get; set; }
-        public string WarEndTime { get; set; }
+        public DateTime WarEndTime { get; set; }
         public WarClan Clan { get; set; }
         public List<WarParticipant> Participants { get; set; }
     }
